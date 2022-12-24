@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { ReactComponent as CrownLogo } from "../../assets/crown.svg";
 import { Outlet, Link } from "react-router-dom";
-import "./navigation.scss"
+import "./navigation.scss";
 
 const Navigation = () => {
   return (
@@ -12,7 +12,10 @@ const Navigation = () => {
         </Link>
         <div className="nav-links-container">
           <Link to="/shop" className="nav-link">
-            Shop
+            SHOP
+          </Link>
+          <Link to="/signin" className="nav-link">
+            SIGN IN
           </Link>
         </div>
       </div>
