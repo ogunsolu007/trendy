@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FormInput from "../form-input/FormInput";
-import "./signupform.scss"
+import "./signupform.scss";
 import Button from "../button/Button";
 
 import {
